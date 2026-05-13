@@ -1,30 +1,7 @@
-# Java / Maven
-target/
-*.class
-*.jar
- 
-# Python
 venv/
-__pycache__/
-*.pyc
-*.pyo
+*.class
+target/
+*.html
+*.png
+*.csv
 .env
- 
-# Outputs generados (no se suben, cada quien los genera)
-elbow_method.png
-poisson_zona_top.png
-estadistica_por_zona.csv
-nodos_biologicos_zmg.html
- 
-# IDEs
-.idea/
-.vscode/settings.json
-*.iml
- 
-# macOS
-.DS_Store
- 
-# Credenciales (NUNCA subir)
-*.env
-secrets.txt
- 

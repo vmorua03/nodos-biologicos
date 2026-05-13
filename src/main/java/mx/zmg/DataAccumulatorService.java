@@ -1,7 +1,10 @@
 package mx.zmg;
 
 import java.time.LocalDate;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 public class DataAccumulatorService {
 
@@ -27,11 +30,29 @@ public class DataAccumulatorService {
 
         // Bloque C: fechas históricas (temporadas migratorias)
         LocalDate[] fechas = {
-            LocalDate.of(2024, 11, 1),
-            LocalDate.of(2024, 12, 15),
-            LocalDate.of(2025, 2,  1),
+            //Primavera
+            LocalDate.of(2025, 3, 21),
             LocalDate.of(2025, 4, 15),
-            LocalDate.of(2025, 9, 20),
+            LocalDate.of(2025, 5,  10),
+
+            //Verano
+            LocalDate.of(2025, 6, 21),
+            LocalDate.of(2025, 7, 15),
+            LocalDate.of(2025, 8, 10),
+            
+            //Otono
+            LocalDate.of(2025, 9, 22),
+            LocalDate.of(2025, 10, 15),
+            LocalDate.of(2025, 11, 10),
+
+            //Invierno
+            LocalDate.of(2025, 12, 21),
+            LocalDate.of(2026, 1, 15),
+            LocalDate.of(2026, 2, 10),
+
+            //Primavera
+            LocalDate.of(2026, 3, 21),
+            LocalDate.of(2026, 4, 15),
         };
 
         for (LocalDate fecha : fechas) {
